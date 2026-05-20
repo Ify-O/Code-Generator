@@ -15,11 +15,11 @@ h1 {
   margin: 20px auto;
   padding: 20px;
   max-width: 600px;
-  background-color: white;
+  background-color: rgb(246, 236, 236);
   border-radius: 10px;
   font-size: 20px;
   font-style: italic;
-  color: #444;
+  color: #2a2929;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,8 +28,8 @@ button {
   font-size: 16px;
   border: none;
   border-radius: 6px;
-  background-color: #007bff;
-  color: white;
+  background-color: #1c4878;
+  color: rgb(250, 236, 236);
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
