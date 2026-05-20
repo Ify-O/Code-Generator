@@ -40,7 +40,13 @@ app.post("/", (req, res) => {
       res.status(400).send("Expected body to be JSON.");
       return;
     }
-    if (typeof body != "object" || !("quote" in body) || !("author" in body)) {
+    if (
+      typeof body !== "object" ||
+      !("quote" in body) ||
+      !("author" in body) ||
+      body.quote.trim() === "" ||
+      body.author.trim() === ""
+    ) {
       console.error(
         `Failed to extract quote and author from post body: ${bodyString}`,
       );
