@@ -5,12 +5,25 @@
     <title>Quote Generator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <h1>Quote Generator</h1>
 
     <p id="quote">Click button to get a quote</p>
 
     <button id="btn">Get Quote</button>
+
+    <h2>Add a Quote</h2>
+
+    <form id="quote-form">
+      <input type="text" id="new-quote" placeholder="Enter a quote" />
+
+      <input type="text" id="author" placeholder="Enter author name" />
+
+      <button type="submit">Add Quote</button>
+    </form>
+
+    <p id="message"></p>
 
     <script src="script.js"></script>
   </body>
